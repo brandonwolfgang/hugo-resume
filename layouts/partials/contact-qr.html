@@ -1,4 +1,6 @@
-<div class="p0 m0 text-center" >
-  <p class="">Scan contact card</p>
-  <img id="qr-code" class="qrcode" alt="Scannable QR code with contact info" src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=MECARD:N:{{ .Param "lastName" }},{{ .Param "firstName" }};{{ .Param "address" }};TEL:{{ .Param "phone" }};EMAIL:{{ .Param "email" }};URL:{{ .Site.BaseURL }};NOTE:{{ .Param "contactNote" }};;"/>
+<div class="d-none d-lg-block p0 m0 text-center" >
+	<figure>
+		<p>	<img id="qr-code" class="qrcode" alt="Scannable QR code with contact info" src="images/qrcode.png" height="150" width="150" style="display:block;height:150px;width:150px;"/>
+		<figcaption>Scan to add contact</figcaption>
+	</figure>
 </div>

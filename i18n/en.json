@@ -1,13 +1,13 @@
 {
-    "about": "About",
-    "blog": "Blog",
-    "certifications": "Certifications",
-    "creations": "Creations",
-    "contact": "Contact",
-    "contributions":"Open Source",
-    "education": "Education",
-    "experience": "Experience",
-    "publications": "Presentations",
-    "skills": "Skills",
-    "socialization": "Socialization"
+	"about"         : "About",
+	"blog"          : "Blog",
+	"certifications": "Certifications",
+	"contact"       : "Contact",
+	"contributions" : "Open Source",
+	"creations"     : "Creations",
+	"education"     : "Education",
+	"experience"    : "Experience",
+	"publications"  : "Presentations",
+	"skills"        : "Skills",
+	"socials"       : ""
 }

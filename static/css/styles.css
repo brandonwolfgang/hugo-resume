@@ -1,3 +1,7 @@
+@tailwind base;       /* Inject Tailwind base styles and any base styles registered by plugins. */
+@tailwind components; /* Inject Tailwind component classes and any component classes registered by plugins. */
+@tailwind utilities;  /* Inject Tailwind utility classes and any utility classes registered by plugins. */
+
 * {
 	border: 1px dotted grey;
 }

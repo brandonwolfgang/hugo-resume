@@ -386,6 +386,13 @@ textarea::-moz-placeholder {
 	  /* 2 */
 }
 
+input::-moz-placeholder, textarea::-moz-placeholder {
+	opacity: 1;
+	  /* 1 */
+	color: #9ca3af;
+	  /* 2 */
+}
+
 input::placeholder,
 textarea::placeholder {
 	opacity: 1;
@@ -846,7 +853,7 @@ section.resume-section .resume-item .resume-date {
 /* Media queries */
 
 @media (min-width: 992px) {
-	  /* Elements */
+	/* Elements */
 
 	body {
 		padding-top : 0;
@@ -864,16 +871,16 @@ section.resume-section .resume-item .resume-date {
 		line-height: 5.5rem;
 	} */
 
-	  /* Classed elements with child classes or special behaviors */
+	/* Classed elements with child classes or special behaviors */
 
 	section.resume-section {
 		padding-bottom: 3rem !important;
 		padding-top   : 3rem !important;
 	}
 
-	  /* Classes */
+	/* Classes */
 
-	  /* Navigation styling */
+	/* Navigation styling */
 
 	#sideNav {
 		display       : flex;

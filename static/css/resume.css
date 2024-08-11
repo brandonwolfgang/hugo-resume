@@ -1,3 +1,7 @@
+* {
+	border: 1px dotted grey;
+}
+
 /* Elements  */
 a {
 	color: #012a37;

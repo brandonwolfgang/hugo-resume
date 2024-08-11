@@ -5,7 +5,8 @@
 							<h1 class="mb-0">{{ .Site.Params.firstName }}
 								<span class="text-primary">{{ .Site.Params.lastName }}</span>
 							</h1>
-							<div class="subheading mb-5">{{ .Site.Params.address }} ·
+							<div class="subheading mb-5">
+								{{ if .Site.Params.showAddress}}{{ .Site.Params.address }}<br />{{ end }}
 								<a href="mailto:{{ substr .Site.Params.email 0 5}}-remove-{{ substr .Site.Params.email 5 }}">{{ substr .Site.Params.email 0 5}}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 5 }}</a>
 							</div>
 						</div>
